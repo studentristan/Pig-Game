@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Play Pig!</title>
+        <meta name="description" content="Tristan's Pig Game (w/ Server)">
+        <link href="../css/overrides.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+    <div id="container">
+      <div class="grid-x">
+        <div class="cell small-1 edge"></div>
+        <div class="cell small-2 background"><span id="dieOne"><img src="../images/1.png"></span></div>
+        <div class="cell small-6 background"><h1 id="winScreen" class="centerme white">Tristan's Game of PIG</h1></div>
+          <div class="cell small-2 background"><span id="dieTwo"><img src="../images/1.png"></span></div>
+        <div class="cell small-1 edge"></div>
+      </div>
+
+      <div class="grid-x">
+
+        <div class="cell small-1 centerme edge">
+
+
+        </div>
+
+        <div class="cell small-3 centerme background">
+          <button type="button" id="pass" class="success button buttonsofepicness">Pass Turn</button>
+        </div>
+
+        <div class="cell small-4 centerme background">
+            <h2 class="centerme white">P1: <span id="p1total">0</span></h2>
+            <h2 class="centerme white">P2: <span id="p2total">0</span></h2>
+        </div>
+
+        <div class="cell small-3 centerme background">
+          <button type="button" id="roll" class="success button buttonsofepicness">Roll Dice</button>
+        </div>
+
+        <div class="cell small-1 centerme edge">
+
+
+        </div>
+
+      </div>
+
+      <div class="grid-x">
+        <div class="cell small-1 edge"></div>
+        <div class="cell small-10 background padit"></div>
+        <div class="cell small-1 edge"></div>
+      </div>
+
+    </div>
+    <script src="../javascripts/main.js" type="module"></script>
+    </body>
+</html>
